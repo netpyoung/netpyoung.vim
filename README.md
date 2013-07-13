@@ -44,3 +44,8 @@ git submodule init && git submodule update
 
 * 마크다운 컨텍스트에 따른 소스 문법강조
  - https://github.com/osyo-manga/vim-precious
+
+* watch dog
+ - http://d.hatena.ne.jp/osyo-manga/20120924
+ - https://github.com/osyo-manga/vim-watchdogs
+ - https://github.com/osyo-manga/shabadou.vim
