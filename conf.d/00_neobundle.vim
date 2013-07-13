@@ -4,7 +4,7 @@ endif
 
 call neobundle#rc(expand('~/.vim/bundle/'))
 
-NeoBundleFetch 'Shougo/neobundle.vim'
+NeoBundleFetch 'Shougo/neobundle.vim' "Vundle을 뛰어넘는 NeoBundle.
 
 NeoBundle 'Shougo/vimproc', {
       \ 'build' : {
@@ -13,22 +13,23 @@ NeoBundle 'Shougo/vimproc', {
       \     'mac' : 'make -f make_mac.mak',
       \     'unix' : 'make -f make_unix.mak',
       \    },
-      \ }
+      \ } "비동기 실행을 위한것.
 
-NeoBundle 'Shougo/neocomplcache'
-NeoBundle 'Shougo/unite.vim'
+NeoBundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'} " 컬러 Theme.
+NeoBundle 'Shougo/neocomplcache' "자동완성.
+NeoBundle 'Shougo/unite.vim'     "정보 탐색.
 
-" [== Look n Feel ==]
-NeoBundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 
-NeoBundle 'taichouchou2/alpaca_powertabline'
+NeoBundle 'scrooloose/nerdtree' "디렉토리 탐색.
+NeoBundle 'tpope/vim-fugitive'  "Git 플러그인.
+
+NeoBundle 'mhinz/vim-startify' "초기 화면 버퍼.
+
+NeoBundle 'thinca/vim-quickrun' "간단한 명령을 쉽게 run.
+
 "NeoBundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-NeoBundle 'Lokaltog/vim-powerline'
+NeoBundle 'Lokaltog/vim-powerline' "상태바를 예쁘게 꾸며줌.
 
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'tpope/vim-fugitive'
-
-NeoBundle 'mhinz/vim-startify'
 
 " [== Installation check. ==]
 if neobundle#exists_not_installed_bundles()

@@ -20,8 +20,7 @@ git clone https://github.com/netpyoung/netpyoung.vim.git
 ## submodule update
 
 ```
-git submodule init
-git submodule update
+git submodule init && git submodule update
 ```
 
 
@@ -35,21 +34,13 @@ git submodule update
 ### PackageManager
 * Shougo/neobundle.vim  (source installed https://github.com/Shougo/neobundle.vim)
 
-### information search
-* Shougo/unite.vim
+### NeoBundle로 설치한 패키지 목록
+[./conf.d/00_neobundle.vim](./conf.d/00_neobundle.vim)
 
-### Look n Feel
-* chriskempson/tomorrow-theme
+### 설치는 안했지만 좋아보이는것.
+*  메모관리
+ - https://github.com/glidenote/memolist.vim
+ - http://blog.glidenote.com/blog/2012/03/26/memolist.vim/
 
-### Utils
-* Shougo/vimproc
-* Shougo/neocomplcache
- - 자동완성
-* scrooloose/nerdtree
- - 디렉토리 탐색.
-* mhinz/vim-startify
- - 초기 화면 버퍼.
-
-### Version Control
-* tpope/vim-fugitive
- - git plugin
+* 마크다운 컨텍스트에 따른 소스 문법강조
+ - https://github.com/osyo-manga/vim-precious
