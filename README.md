@@ -49,3 +49,6 @@ git submodule init && git submodule update
  - http://d.hatena.ne.jp/osyo-manga/20120924
  - https://github.com/osyo-manga/vim-watchdogs
  - https://github.com/osyo-manga/shabadou.vim
+
+* clojure
+ - https://github.com/tpope/vim-fireplace

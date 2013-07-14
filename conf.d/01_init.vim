@@ -1,3 +1,4 @@
+" ==============================================================================
 set guioptions-=m "메뉴바 제거.
 set guioptions-=T "툴바 제거.
 set shortmess+=I "환영 스크린 제거
@@ -8,22 +9,31 @@ syntax on  "문법 강조
 
 colorscheme tomorrow-night-bright "컬러 Theme
 
-let g:neocomplcache_enable_at_startup = 1 "자동완성 On.
+" ==============================================================================
 
-" [== PowerLine ==]
-"let g:Powerline_symbols = 'fancy'
-set laststatus=2 "(0 = never, 1 = (default) two more windows, 2 = always) "상태바 없에기.
+nnoremap <space> za "unfold(za)를 <space>로 맵핑.
 
-let g:startify_bookmarks = [ '~/.vim/conf.d/01_init.vim' ] "북마크 설정.
+"set relativenumber "상대적으로 줄번호를 먹임.
 
-map <F7> :QuickRun<CR><C-W>w<C-W> "QuickRun설정.
+set guifont=bitstream_vera_sans_mono:h15
+
+set cursorline "현재 라인 하이라이트.
+
+set wildmenu              " 명령어 힌트.
+set wildmode=list,longest " 명령어 힌트. 목록으로.
+
+set backspace=indent,eol,start " 백스페이스 설정.
+
+set colorcolumn=80 "80라인 색상적용.
+
+" ==============================================================================
 
 " [== ( something ) ==]
-imap [] [] <Left>
-imap () () <Left>
-imap "" ""<Left>
-imap '' '' <Left>
-imap <> <> <Left>
+"imap [] [] <Left>
+"imap () () <Left>
+"imap "" ""<Left>
+"imap '' '' <Left>
+"imap <> <> <Left>
 
 " [== TAB ==]
 set smarttab
@@ -50,3 +60,19 @@ if has("multi_byte")
   " 읽어 오는 파일의 인코딩을 판별하는 순서
   set fileencodings=ucs-bom,utf-8,cp949,latin1
 endif
+
+
+" ==============================================================================
+" [== 번들 설정 ==]
+let g:neocomplcache_enable_at_startup = 1 "자동완성 On.
+
+
+"let g:Powerline_symbols = 'fancy' " [== PowerLine ==]
+set laststatus=2 "상태바(0 = never, 1 = (default) two more windows, 2 = always)
+
+
+let g:startify_bookmarks = [ '~/.vim/conf.d/01_init.vim' ] "북마크 설정.
+
+
+
+map <F7> :QuickRun<CR><C-W>w<C-W> "QuickRun설정.
