@@ -18,12 +18,17 @@ or
 git clone https://github.com/netpyoung/netpyoung.vim.git
 ```
 
-## submodule update
+## init & update submodule
 
 ```
 git submodule init && git submodule update
 ```
 
+## update submodule all
+
+```
+git submodule foreach git pull
+```
 
 --------------------------------------------------------------------------------
 
