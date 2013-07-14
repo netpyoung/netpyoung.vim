@@ -2,6 +2,7 @@ ReadMe
 =============
 
 # ~/.vim
+* http://www.vim.org/
 
 ## Windows environment variable
 * VIM = d:\myHome\.vim
@@ -52,3 +53,26 @@ git submodule init && git submodule update
 
 * clojure
  - https://github.com/tpope/vim-fireplace
+
+* YouCompleteMe
+ - 자동완성. c, python기반.
+ - http://valloric.github.io/YouCompleteMe/
+
+* Tabular
+ - 정렬
+ - https://github.com/godlygeek/tabular
+
+* 인덴트 가이드
+  - https://github.com/nathanaelkane/vim-indent-guides
+
+--------------------------------------------------------------------------------
+
+# 참고자료
+* vimpusher : http://www.vimpusher.com/
+* writing a vim plugin : http://items.sjbach.com/97/writing-a-vim-plugin
+* vimcast : http://vimcasts.org/
+* learn vim script the hard way : http://learnvimscriptthehardway.stevelosh.com/
+* book:practical-vim : http://pragprog.com/book/dnvim/practical-vim
+* book:hacking-vim-7.2 : http://www.packtpub.com/hacking-vim-72/book
+* jp:Vim Advent Calendar 2012 : http://atnd.org/events/33746
+* jp:vim-jp : 일본 vim 사용자 모임.

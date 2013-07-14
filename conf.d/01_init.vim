@@ -52,6 +52,13 @@ set smartcase " 대문자가 검색 문자열에 있을때는 noignorecase
 nnoremap <space> za "unfold(za)를 <space>로 맵핑.
 set backspace=indent,eol,start " 백스페이스 설정.
 
+nmap \g :nohlsearch<CR>
+
+nmap \u :Unite file buffer<CR>
+"nmap \t :NERDTreeToggle<CR>
+nmap \t :VimFilerExplore<CR>
+
+map <F7> :QuickRun<CR><C-W>w<C-W> "QuickRun설정.
 
 " ==============================================================================
 " [== 인코딩 설정 ==]
@@ -76,5 +83,6 @@ let g:neocomplcache_enable_at_startup = 1 "자동완성 On.
 "let g:Powerline_symbols = 'fancy'
 let g:startify_bookmarks = [ '~/.vim/conf.d/01_init.vim' ] "북마크 설정.
 
-map <F7> :QuickRun<CR><C-W>w<C-W> "QuickRun설정.
 let g:quickrun_config = { '*': { 'hook/time/enable': '1 '}}
+
+let g:vimfiler_as_default_explorer = 1

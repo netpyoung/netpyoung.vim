@@ -20,15 +20,22 @@ NeoBundle 'Shougo/neocomplcache' "자동완성.
 NeoBundle 'Shougo/unite.vim'     "정보 탐색.
 
 
-NeoBundle 'scrooloose/nerdtree' "디렉토리 탐색.
+"NeoBundle 'scrooloose/nerdtree' "디렉토리 탐색.
+NeoBundle 'Shougo/vimfiler.vim' "디렉토리 탐색.
 NeoBundle 'tpope/vim-fugitive'  "Git 플러그인.
 
 NeoBundle 'mhinz/vim-startify' "초기 화면 버퍼.
 
+NeoBundle 'Shougo/vimshell.vim' "쉘 프로그램.
+
 NeoBundle 'thinca/vim-quickrun' "간단한 명령을 쉽게 run.
 
-"NeoBundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-NeoBundle 'Lokaltog/vim-powerline' "상태바를 예쁘게 꾸며줌.
+
+" [== GUI Only ==]
+if has("gui_running")
+    "NeoBundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+    NeoBundle 'Lokaltog/vim-powerline' "상태바를 예쁘게 꾸며줌.
+endif
 
 
 " [== Installation check. ==]
