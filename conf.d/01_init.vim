@@ -66,6 +66,9 @@ set smartcase " 대문자가 검색 문자열에 있을때는 noignorecase
 nnoremap <space> za "unfold(za)를 <space>로 맵핑.
 set backspace=indent,eol,start " 백스페이스 설정.
 
+map ø :       "Alt + x 맵핑.
+imap ø <ESC>: "Alt + x 맵핑.
+
 nmap \g :nohlsearch<CR>
 
 nmap \u :Unite file buffer<CR>
