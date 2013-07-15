@@ -83,6 +83,11 @@ let g:neocomplcache_enable_at_startup = 1 "자동완성 On.
 "let g:Powerline_symbols = 'fancy'
 let g:startify_bookmarks = [ '~/.vim/conf.d/01_init.vim' ] "북마크 설정.
 
-let g:quickrun_config = { '*': { 'hook/time/enable': '1 '}}
+let g:quickrun_config = {
+    \ '*': {
+    \    'hook/time/enable': '1 ',
+    \    'outputter/buffer/running_mark': '<Running!!>',
+    \  }
+    \}
 
 let g:vimfiler_as_default_explorer = 1
