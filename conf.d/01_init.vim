@@ -1,5 +1,19 @@
 " ==============================================================================
-set guifont=Bitstream\ Vera\ Sans\ Mono\ 15
+function IsWindows()
+	if has("gui_running") && (has("gui_win32") || has("gui_win64"))
+		return 1
+	endif
+	  
+	return 0
+endfunction
+
+if IsWindows()
+	set guifont=bitstream_vera_sans_mono:h15
+else
+	set guifont=Bitstream\ Vera\ Sans\ Mono\ 15
+endif
+
+" ==============================================================================
 colorscheme Tomorrow-Night-Bright "컬러 Theme
 
 set laststatus=2  "상태바.(0 = never, 1 = (default) two+, 2 = always)
