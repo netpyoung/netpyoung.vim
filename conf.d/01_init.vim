@@ -1,6 +1,6 @@
 " ==============================================================================
-set guifont=bitstream_vera_sans_mono:h15
-colorscheme tomorrow-night-bright "컬러 Theme
+set guifont=Bitstream\ Vera\ Sans\ Mono\ 15
+colorscheme Tomorrow-Night-Bright "컬러 Theme
 
 set laststatus=2  "상태바.(0 = never, 1 = (default) two+, 2 = always)
 set showtabline=2 "탭바.

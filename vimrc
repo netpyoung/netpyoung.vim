@@ -4,5 +4,5 @@ filetype on "파일타입은 아직 뭐하는 건지 모르겠다.
 filetype indent on
 filetype plugin on
 
-source $VIM/init_loader.vim
+source ~/.vim/init_loader.vim
 call init_loader#init_path('conf.d')
