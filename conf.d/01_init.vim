@@ -14,6 +14,7 @@ else
 endif
 
 " ==============================================================================
+set t_Co=256 "컬러 색상 제한.
 colorscheme Tomorrow-Night-Bright "컬러 Theme
 
 set laststatus=2  "상태바.(0 = never, 1 = (default) two+, 2 = always)
