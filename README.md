@@ -4,6 +4,9 @@ ReadMe
 # ~/.vim
 * http://www.vim.org/
 
+# TODO
+python coding check 기능.
+
 ## Windows environment variable
 * VIM = d:\myHome\.vim
 * VIMRUNTIME = c:\Program Files (x86)\Vim\vim73

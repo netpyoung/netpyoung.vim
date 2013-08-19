@@ -47,6 +47,10 @@ set colorcolumn=80 "80라인 색상적용.
 "imap '' '' <Left>
 "imap <> <> <Left>
 
+" [== Tags ==]
+" tag 깊이 추가.
+set tags=./tags,../tags,../../tags,../../../tags,../../../../tags,../../../../../../tags
+
 
 " [== TAB ==]
 set smarttab
@@ -61,6 +65,13 @@ set hlsearch " 검색 결과 강조
 set ignorecase " 대소문자 무시 검색
 set smartcase " 대문자가 검색 문자열에 있을때는 noignorecase
 
+
+" [== Copy&Paste ==]
+if has("unnamedplus")
+    set clipboard=unnamedplus
+elseif has ("clipboard")
+    set clipboard=unnamed
+endif
 
 " ==============================================================================
 " [== 키 설정 ==]
@@ -78,6 +89,13 @@ nmap \u :Unite file buffer<CR>
 nmap \t :VimFilerExplore<CR>
 
 map <F7> :QuickRun<CR><C-W>w<C-W> "QuickRun설정.
+
+" search
+" f3:위, f4:아레, C-]:들어가기, C-[:빠져나오기.
+nmap <F3> *
+nmap <F4> #
+nmap <F6> :tp <CR>
+nmap <F7> :tn <CR>
 
 " ==============================================================================
 " [== 인코딩 설정 ==]

@@ -30,6 +30,8 @@ NeoBundle 'Shougo/vimshell.vim' "쉘 프로그램.
 
 NeoBundle 'thinca/vim-quickrun' "간단한 명령을 쉽게 run.
 
+NeoBundle 'rking/ag.vim' "grep확장판.
+
 
 " [== GUI Only ==]
 if has("gui_running")
