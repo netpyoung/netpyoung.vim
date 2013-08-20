@@ -7,6 +7,11 @@ ReadMe
 # TODO
 python coding check 기능.
 
+## bom설정.
+:setlocal bomb?
+:setlocal nobomb
+:w
+
 ## Windows environment variable
 * VIM = d:\myHome\.vim
 * VIMRUNTIME = c:\Program Files (x86)\Vim\vim73
