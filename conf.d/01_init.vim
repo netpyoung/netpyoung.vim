@@ -128,3 +128,4 @@ let g:quickrun_config = {
     \}
 
 let g:vimfiler_as_default_explorer = 1
+let g:syntastic_python_checkers = ['pyflakes', 'pep8']

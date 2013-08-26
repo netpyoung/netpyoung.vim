@@ -32,6 +32,11 @@ NeoBundle 'thinca/vim-quickrun' "간단한 명령을 쉽게 run.
 
 NeoBundle 'rking/ag.vim' "grep확장판.
 
+" for python
+NeoBundle 'scrooloose/syntastic' "syntax 체크.
+NeoBundle 'hynek/vim-python-pep8-indent' "pep8 indent
+NeoBundle 'xolox/vim-misc' "vim autoload
+NeoBundle 'xolox/vim-easytags' "vim tags
 
 " [== GUI Only ==]
 if has("gui_running")
