@@ -37,6 +37,7 @@ NeoBundle 'scrooloose/syntastic' "syntax 체크.
 NeoBundle 'hynek/vim-python-pep8-indent' "pep8 indent
 NeoBundle 'xolox/vim-misc' "vim autoload
 NeoBundle 'xolox/vim-easytags' "vim tags
+NeoBundle 'tpope/vim-unimpaired' "vim key binding
 
 " [== GUI Only ==]
 if has("gui_running")
