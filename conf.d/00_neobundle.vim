@@ -30,6 +30,7 @@ NeoBundle 'Shougo/vimshell.vim' "쉘 프로그램.
 
 NeoBundle 'thinca/vim-quickrun' "간단한 명령을 쉽게 run.
 
+NeoBundle 'terryma/vim-multiple-cursors' "multiple-cursors
 NeoBundle 'rking/ag.vim' "grep확장판.
 
 " for python
