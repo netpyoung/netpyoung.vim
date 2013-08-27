@@ -33,6 +33,9 @@ NeoBundle 'thinca/vim-quickrun' "간단한 명령을 쉽게 run.
 NeoBundle 'terryma/vim-multiple-cursors' "multiple-cursors
 NeoBundle 'rking/ag.vim' "grep확장판.
 
+NeoBundle 'jtratner/vim-flavored-markdown' "markdown-mode
+
+
 " for python
 NeoBundle 'scrooloose/syntastic' "syntax 체크.
 NeoBundle 'hynek/vim-python-pep8-indent' "pep8 indent
