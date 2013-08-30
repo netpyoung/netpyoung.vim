@@ -43,6 +43,9 @@ NeoBundle 'xolox/vim-misc' "vim autoload
 NeoBundle 'xolox/vim-easytags' "vim tags
 NeoBundle 'tpope/vim-unimpaired' "vim key binding
 
+" for go
+NeoBundle 'fsouza/go.vim'
+
 " [== GUI Only ==]
 if has("gui_running")
     "NeoBundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
