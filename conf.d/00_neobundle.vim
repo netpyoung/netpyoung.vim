@@ -36,15 +36,20 @@ NeoBundle 'rking/ag.vim' "grep확장판.
 NeoBundle 'jtratner/vim-flavored-markdown' "markdown-mode
 
 
-" for python
+" for Python
 NeoBundle 'scrooloose/syntastic' "syntax 체크.
 NeoBundle 'hynek/vim-python-pep8-indent' "pep8 indent
 NeoBundle 'xolox/vim-misc' "vim autoload
 NeoBundle 'xolox/vim-easytags' "vim tags
 NeoBundle 'tpope/vim-unimpaired' "vim key binding
 
-" for go
+" for Golang
 NeoBundle 'fsouza/go.vim'
+
+" for Clojure
+NeoBundle 'tpope/vim-fireplace' "nrepl
+NeoBundle 'tpope/vim-classpath'
+NeoBundle 'guns/vim-clojure-static'
 
 " [== GUI Only ==]
 if has("gui_running")
