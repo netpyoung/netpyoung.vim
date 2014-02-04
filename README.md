@@ -4,9 +4,6 @@ ReadMe
 # ~/.vim
 * http://www.vim.org/
 
-# TODO
-python coding check 기능.
-
 ## bom설정.
 :setlocal bomb?
 :setlocal nobomb
@@ -36,6 +33,11 @@ git submodule init && git submodule update
 
 ```
 git submodule foreach git pull
+```
+
+## del submodule
+```
+git submodule deinit 'modulepath'
 ```
 
 --------------------------------------------------------------------------------

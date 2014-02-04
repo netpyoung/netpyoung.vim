@@ -1,5 +1,5 @@
 if has('vim_starting')
-  set runtimepath+=~/.vim/bundle/neobundle.vim/
+  set runtimepath+=~/.vim/neobundle.vim/
 endif
 
 call neobundle#rc(expand('~/.vim/bundle/'))
@@ -22,29 +22,29 @@ NeoBundle 'Shougo/unite.vim'     "정보 탐색.
 
 "NeoBundle 'scrooloose/nerdtree' "디렉토리 탐색.
 NeoBundle 'Shougo/vimfiler.vim' "디렉토리 탐색.
-NeoBundle 'tpope/vim-fugitive'  "Git 플러그인.
+"NeoBundle 'tpope/vim-fugitive'  "Git 플러그인.
 
 NeoBundle 'mhinz/vim-startify' "초기 화면 버퍼.
 
-NeoBundle 'Shougo/vimshell.vim' "쉘 프로그램.
+"NeoBundle 'Shougo/vimshell.vim' "쉘 프로그램.
 
-NeoBundle 'thinca/vim-quickrun' "간단한 명령을 쉽게 run.
+"NeoBundle 'thinca/vim-quickrun' "간단한 명령을 쉽게 run.
 
-NeoBundle 'terryma/vim-multiple-cursors' "multiple-cursors
+"NeoBundle 'terryma/vim-multiple-cursors' "multiple-cursors
 NeoBundle 'rking/ag.vim' "grep확장판.
 
-NeoBundle 'jtratner/vim-flavored-markdown' "markdown-mode
+"NeoBundle 'jtratner/vim-flavored-markdown' "markdown-mode
 
 
 " for Python
-NeoBundle 'scrooloose/syntastic' "syntax 체크.
-NeoBundle 'hynek/vim-python-pep8-indent' "pep8 indent
-NeoBundle 'xolox/vim-misc' "vim autoload
-NeoBundle 'xolox/vim-easytags' "vim tags
-NeoBundle 'tpope/vim-unimpaired' "vim key binding
+"NeoBundle 'scrooloose/syntastic' "syntax 체크.
+"NeoBundle 'hynek/vim-python-pep8-indent' "pep8 indent
+"NeoBundle 'xolox/vim-misc' "vim autoload
+"NeoBundle 'xolox/vim-easytags' "vim tags
+"NeoBundle 'tpope/vim-unimpaired' "vim key binding
 
 " for Golang
-NeoBundle 'fsouza/go.vim'
+"NeoBundle 'fsouza/go.vim'
 
 " for Clojure
 NeoBundle 'tpope/vim-fireplace' "nrepl
