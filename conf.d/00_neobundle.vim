@@ -51,6 +51,9 @@ NeoBundle 'tpope/vim-fireplace' "nrepl
 NeoBundle 'tpope/vim-classpath'
 NeoBundle 'guns/vim-clojure-static'
 
+" for VimL
+NeoBundle 'tpope/timl'
+
 " [== GUI Only ==]
 if has("gui_running")
     "NeoBundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
