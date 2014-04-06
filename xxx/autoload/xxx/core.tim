@@ -1,4 +1,17 @@
 (ns xxx.core)
 
-(defn hello [a b c]
-  (println "hello" a b c))
+
+(defmacro ->>
+  ([x form] (if (seq? form)
+    (with-meta `(~(first form) ~@(next form)  ~x) (meta form))
+    (list form x)))
+  ([x form & more]
+   `(->> (->> ~x ~form) ~@more)))
+
+(defn ls [& args]
+  (execute (str "echo '"
+  (->> args
+       (concat ["ls" "-al"])
+       (join " ")
+       (#*system)
+       ) "'")))
