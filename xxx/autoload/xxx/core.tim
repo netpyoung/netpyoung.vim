@@ -9,9 +9,8 @@
    `(->> (->> ~x ~form) ~@more)))
 
 (defn ls [& args]
-  (execute (str "echo '"
   (->> args
        (concat ["ls" "-al"])
        (join " ")
        (#*system)
-       ) "'")))
+       (println)))
