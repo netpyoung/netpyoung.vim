@@ -1,0 +1,4 @@
+(ns xxx.core)
+
+(defn hello [a b c]
+  (println "hello" a b c))
