@@ -47,7 +47,7 @@ NeoBundle 'rking/ag.vim' "grep확장판.
 "NeoBundle 'fsouza/go.vim'
 
 " for Clojure
-NeoBundle 'tpope/vim-fireplace' "nrepl
+"NeoBundle 'tpope/vim-fireplace' "nrepl
 NeoBundle 'tpope/vim-classpath'
 NeoBundle 'guns/vim-clojure-static'
 
