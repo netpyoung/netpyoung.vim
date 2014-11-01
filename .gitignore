@@ -1,3 +1,4 @@
 .neobundle/
 bundle/
 !bundle/neobundle.vim
+.netrwhist

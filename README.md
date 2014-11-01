@@ -81,6 +81,8 @@ git submodule deinit 'modulepath'
   - https://github.com/nathanaelkane/vim-indent-guides
 
 --------------------------------------------------------------------------------
+* http://robots.thoughtbot.com/writing-vim-syntax-plugins
+--------------------------------------------------------------------------------
 
 # 참고자료
 * vimpusher : http://www.vimpusher.com/
