@@ -132,5 +132,5 @@ let g:syntastic_python_checkers = ['pyflakes', 'pep8']
 
 augroup markdown
     au!
-    au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
+    au BufNewFile,BufRead *.md,*.markdown setlocal filetype=markdown
 augroup END

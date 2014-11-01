@@ -33,7 +33,7 @@ NeoBundle 'mhinz/vim-startify' "초기 화면 버퍼.
 "NeoBundle 'terryma/vim-multiple-cursors' "multiple-cursors
 NeoBundle 'rking/ag.vim' "grep확장판.
 
-"NeoBundle 'jtratner/vim-flavored-markdown' "markdown-mode
+NeoBundle 'tpope/vim-markdown' "markdown-mode
 
 
 " for Python
